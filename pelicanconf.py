@@ -2,7 +2,7 @@ AUTHOR = 'Sachin Arora'
 SITENAME = 'Sachin Arora’s Blog'
 SITEURL = "https://sachnaror.github.io"
 PATH = "content"
-
+THEME = "themes/Flex"
 TIMEZONE = 'Asia/Calcutta'
 
 DEFAULT_LANG = 'en'
