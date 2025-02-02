@@ -1,0 +1,44 @@
+# Ignore Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# Ignore Pelican output (generated site)
+output/
+
+# Ignore Pelican cache and intermediate files
+*.log
+*.cache
+*.pid
+*.dat
+*.bak
+*.sqlite
+*.db
+
+# Ignore editor and OS-generated files
+.DS_Store
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore compiled files and virtual environments
+.env
+.venv/
+venv/
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore Makefile generated files
+*.html~
+*.tmp
+*.bak
+*.swp
+*.orig
+
+# Ignore specific files
+pelican-quickstart.log
+publishconf.pyc
