@@ -8,6 +8,18 @@ This blog is generated with **Pelican**, because static sites are the new black,
 
 ---
 
+## 📌 Summary
+
+| Step | Command |
+|------|---------|
+| 1️⃣ **Create a blog post** | `nano content/my-new-blog.md` |
+| 2️⃣ **Generate site** | `pelican content` |
+| 3️⃣ **Push to GitHub** | `git add . && git commit -m "New blog post" && git push origin main` |
+| 4️⃣ **Deploy to GitHub Pages** | `make github` |
+| 5️⃣ **View live blog** | [https://sachnaror.github.io/](https://sachnaror.github.io/) |
+
+---
+
 ## 🎯 Features
 
 ✅ **Built with Python & Pelican** – Because Django felt like overkill for a blog.
